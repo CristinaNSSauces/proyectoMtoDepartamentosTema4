@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Departamentos>
+  <Departamento>
+    <CodDepartamento>DEW</CodDepartamento>
+    <DescDepartamento>Departamento 1</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>35</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>HJL</CodDepartamento>
+    <DescDepartamento>Departamento 3</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>50.2</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>LOL</CodDepartamento>
+    <DescDepartamento>Departamento 2</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>6.25</VolumenNegocio>
+  </Departamento>
+</Departamentos>

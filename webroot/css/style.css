@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+.logo{
+    font-size: 25px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%; 
+}
+
+footer{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    position: absolute;
+    background-color: rgb(177, 177, 177);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+header{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #239481;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    color: white;
+}
+
+.enlaces{
+    list-style: none;
+}
+
+.enlaces li{
+    display: inline-block;
+    padding: 10px;
+}
+
+li,a{
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+input.enviar{
+    font-family: 'Bebas Neue', cursive;
+    width: 300px;
+    height: 30px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+#DescDepartamento{
+    width: 300px;
+    height: 30px;
+}
+
+.descDepartamento, .CodigoDepartamento, .DescripcionDepartamento, .Fecha, .Volumen{
+    font-family: 'News Cycle', sans-serif;
+}
+
+.formularioBuscar{
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.volver{
+    font-family: 'Bebas Neue', cursive;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.resultadoConsulta{
+    font-family: 'News Cycle', sans-serif;
+    text-align: left;
+    width: 90vw;
+    height: 50vh;
+}
+.tabla{
+    width: 100%;
+    height: 90%;
+}
+.tablaConsultaCampos{
+    width: 100%;
+}
+
+.campo{
+    width: 20%;
+}
+
+input.aceptar, input.cancelar{
+    font-family: 'Bebas Neue', cursive;
+    width: 270px;
+    height: 55px;
+    font-size: 20px;
+}
+
+.mainEditar{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.formularioMostrar{
+    width: 100%;
+    margin-left: 21%;
+    margin-right: 21%;
+}
+
+.botones{
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.resultadoConsulta{
+    margin-top: 1%;
+    margin-left: 5%; 
+}
+
+.atencion{
+    font-family: 'News Cycle', sans-serif;
+}
+
+.atencion img{
+    margin-right: 2%;
+}
+
+.contenidoIndex{
+    margin-top: 1%;
+}
+
+.pagina{
+    border: 0;
+    background-color: transparent;
+}
+.tBoton{
+    width: 30px; 
+}

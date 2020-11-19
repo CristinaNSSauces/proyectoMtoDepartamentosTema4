@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Departamentos>
+  <Departamento>
+    <CodDepartamento>ART</CodDepartamento>
+    <DescDepartamento>Departamento de arte</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>2</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>COC</CodDepartamento>
+    <DescDepartamento>Departamento de cocina</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>4</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>CON</CodDepartamento>
+    <DescDepartamento>Departamento de contabilidad</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>3</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>DAW</CodDepartamento>
+    <DescDepartamento>Desarrollo de aplicaciones web</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>8</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>EDF</CodDepartamento>
+    <DescDepartamento>Departamento de educación física</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>1</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>INF</CodDepartamento>
+    <DescDepartamento>Departamento de informatica</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>1</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>MAT</CodDepartamento>
+    <DescDepartamento>Departamento de matematicas</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>6</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>MEC</CodDepartamento>
+    <DescDepartamento>Departamento de mecanica</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>5</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>MUS</CodDepartamento>
+    <DescDepartamento>Departamento de musica</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>3</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <CodDepartamento>VEN</CodDepartamento>
+    <DescDepartamento>Departamento de ventas</DescDepartamento>
+    <FechaBaja/>
+    <VolumenNegocio>2</VolumenNegocio>
+  </Departamento>
+</Departamentos>
