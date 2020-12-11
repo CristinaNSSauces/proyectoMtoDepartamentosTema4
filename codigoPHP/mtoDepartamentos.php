@@ -91,11 +91,11 @@ require_once "../config/confLocation.php";//Incluimos el archivo de configuraci�
                         $parametros = [":DescDepartamento" => $_REQUEST['DescDepartamento']];
                         $consulta->execute($parametros);//Pasamos los parametros y ejecutamos la consulta
                         
-                        $sqlPaginacion = 'SELECT count(*) FROM Departamento';
-                    
-                        $consultaPaginacion = $miDB->prepare($sqlPaginacion); // preparo la consulta
-
-                        $consultaPaginacion->execute(); // ejecuto la consulta con los paremtros del array de parametros 
+                        $sqlPaginacion = 'SELECT count(*) FROM Departamento WHERE DescDepartamento LIKE "%":DescDepartamento"%"';
+                        $consultaPaginacion = $miDB->prepare($sqlPaginacion);//Preparamos la consulta
+                        $parametrosPaginacion = [":DescDepartamento" => $_REQUEST['DescDepartamento']];
+                        $consultaPaginacion->execute($parametrosPaginacion);//Pasamos los parametros y ejecutamos la consulta
+                        
                         $resultado = $consultaPaginacion->fetch();//Almacenamos el resultado el primer registro de la consulta y avanzamos el puntero al registro siguiente
                         
                         if($resultado[0]%MAXDEPARTAMENTOS==0){//Si el resto de dividir el numero de registros de nuestro departamento entre el total de registros por pagina es cero
@@ -201,8 +201,14 @@ require_once "../config/confLocation.php";//Incluimos el archivo de configuraci�
         </div>
     </main>
     
-    <footer>
-        <address>Cristina Núñez Sebastián</address>
-    </footer>
+    <footer> 
+        <table class="pie">
+            <tr> 
+                <td><a href="http://daw215.ieslossauces.es/" target="_blank"><img src="../webroot/media/1&1.png" alt="1&1" width="45"></a></td>
+                <td style="font-size: 26px;"><a href="../../index.html">Cristina Núñez Sebastián</a></td>
+                <td><a href="https://github.com/CristinaNSSauces" target="_blank"><img src="../webroot/media/git.png" alt="git" width="45"></a></td>
+            </tr>
+        </table>
+    </footer> 
 </body>
 </html>
